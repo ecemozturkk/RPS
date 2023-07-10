@@ -14,23 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-//    @IBAction func playPaper(_ sender: Any) {
-//        let playerMove = "paper"
-//        var controller:ResultViewController
-//        controller = self.storyboard?.instantiateViewController(withIdentifier: "ResultViewController") as! ResultViewController
-//        playGamePushResults(playerMove,controller)
-//        self.present(controller, animated: true, completion: nil)
-//        //performSegue(withIdentifier: "playPaper", sender: self)
-//
-//    }
-    
     @IBAction func playRock(_ sender: Any) {
         performSegue(withIdentifier: "playRock", sender: self)
     }
-    
-    
-    
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var playerMove: String = ""

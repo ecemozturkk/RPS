@@ -119,7 +119,7 @@
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="playAgain:" destination="5tP-dd-RXP" eventType="touchUpInside" id="X3P-0W-vzm"/>
+                                    <action selector="playAgaing:" destination="5tP-dd-RXP" eventType="touchUpInside" id="znX-2e-3Uh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computer:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vv0-mm-ESK">
@@ -187,10 +187,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="compImageView" destination="7Cv-qc-Ohl" id="TtC-sC-mis"/>
-                        <outlet property="playerImageView" destination="Oxl-Lm-jrF" id="euf-WV-MRF"/>
-                        <outlet property="resultImageView" destination="2Ne-9p-qyl" id="bh8-ia-hOn"/>
-                        <outlet property="resultLabel" destination="qYO-jy-doW" id="OdB-Dz-peW"/>
+                        <outlet property="compImageView" destination="7Cv-qc-Ohl" id="rTD-Ye-qBQ"/>
+                        <outlet property="playerImageView" destination="Oxl-Lm-jrF" id="HfN-nY-JCZ"/>
+                        <outlet property="resultImageView" destination="2Ne-9p-qyl" id="kMX-Rk-Rxp"/>
+                        <outlet property="resultLabel" destination="qYO-jy-doW" id="bag-op-8vL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qDr-aL-JF8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
